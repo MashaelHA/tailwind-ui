@@ -1,4 +1,6 @@
 import Button from "@/components/Button";
+import SwitchButton from "@/components/SwitchButton";
+import Header from "../components/HeaderComponant";
 
 export default function Home() {
   return (
@@ -42,6 +44,13 @@ export default function Home() {
             </Button>
           </div>
         </div>
+        <div className="flex flex-col gap-10 w-min">
+          <SwitchButton labelOff="Option" labelOn="Option" />
+        </div>
+        <div className="flex flex-row gap-10 w-full">
+          <Header />
+        </div>
+        {/* <svg className="fill-blue-500"></svg> */}
       </div>
     </main>
   );

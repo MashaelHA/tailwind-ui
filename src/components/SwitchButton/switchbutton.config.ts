@@ -12,15 +12,7 @@ const config = cva(
   {
     variants: {
       variant: {
-        primary: ["text-white", "bg-purple-700", "enabled:hover:bg-purple-500"],
-        secondary: [
-          "text-red-500",
-          "bg-white",
-          "border",
-          "border-red-500",
-          "enabled:hover:bg-red-200",
-        ],
-        transparent: ["text-red-500", "enabled:hover:bg-rose-100"],
+        primary: ["text-purple-700", "bg-shades-0"],
       },
       size: {
         small: [
@@ -28,24 +20,18 @@ const config = cva(
           "px-4",
           "h-8",
           "text-sm",
-          // "md:rounded-lg",
-          // "xl:rounded-xl",
         ],
         medium: [
           "py-2.5",
           "px-6",
           "h-10",
           "text-base",
-          // "md:rounded-lg",
-          // "xl:rounded-xl",
         ],
         large: [
           "py-3",
           "px-9",
           "h-12",
           "text-lg",
-          // "md:rounded-xl",
-          // "xl:rounded-2xl",
         ],
       },
       width: {
