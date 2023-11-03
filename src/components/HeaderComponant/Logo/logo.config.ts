@@ -14,25 +14,25 @@ const config = cva(
       size: {
         small: [
           "py-2.5",
-          "px-4",
+          "pl-1",
           "h-10",
           "text-sm",
         ],
         medium: [
           "py-2.5",
-          "px-6",
+          "pl-2",
           "h-14",
           "text-base",
         ],
         large: [
           "py-3",
-          "px-9",
+          "px-6",
           "h-16",
           "text-lg",
         ],
       },
       width: {
-        full: "w-full",
+        full: "w-max",
         min: "w-min",
         max: "w-max",
         fit: "w-fit",
@@ -41,7 +41,7 @@ const config = cva(
     },
     defaultVariants: {
       size: "medium",
-      width: "initial",
+      width: "min",
     },
   }
 );

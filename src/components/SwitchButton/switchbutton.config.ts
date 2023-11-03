@@ -17,19 +17,19 @@ const config = cva(
       size: {
         small: [
           "py-2.5",
-          "px-4",
+          "px-1",
           "h-8",
           "text-sm",
         ],
         medium: [
           "py-2.5",
-          "px-6",
+          "px-2",
           "h-10",
           "text-base",
         ],
         large: [
           "py-3",
-          "px-9",
+          "px-3",
           "h-12",
           "text-lg",
         ],
@@ -39,7 +39,7 @@ const config = cva(
         min: "w-min",
         max: "w-max",
         fit: "w-fit",
-        initial: "min-w-32",
+        initial: "min-w-40",
       },
     },
     defaultVariants: {

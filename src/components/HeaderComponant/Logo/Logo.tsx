@@ -6,7 +6,7 @@ import { classNames } from "@/utils";
 const Logo = ({ imageUrl, text, size, width, id, className }: LogoProps) => {
   const classesIcon = React.useMemo(() => {
     return classNames(
-      `flex rounded-full object-cover mr-4`,
+      `flex rounded-full object-cover mr-4 w-max h-max`,
       tailwindConfig({ size, width, className })
     );
   }, [size, width, className]);

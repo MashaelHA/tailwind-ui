@@ -6,8 +6,8 @@ const headerConfig = cva(
     "items-center",
     "justify-center",
     "font-medium",
-    "cursor-pointer",
     "rounded-full",
+    "shadow-xl",
   ],
   {
     variants: {
@@ -16,16 +16,16 @@ const headerConfig = cva(
         secondary: ["text-white", "bg-purple-500"],
       },
       size: {
-        small: ["py-2.5", "px-4", "h-8", "text-sm"],
-        medium: ["py-2.5", "px-6", "h-10", "text-base"],
-        large: ["py-3", "px-9", "h-12", "text-lg"],
+        small: ["py-2.5", "px-4", "h-8"],
+        medium: ["py-2.5", "px-6", "h-10"],
+        large: ["py-3", "px-9", "h-12"],
       },
       width: {
         full: "w-full",
         min: "w-min",
         max: "w-max",
         fit: "w-fit",
-        initial: "min-w-32",
+        initial: "min-w-full",
       },
     },
     defaultVariants: {
